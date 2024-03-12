@@ -14,112 +14,112 @@ datasource db {
 }
 
 model User {
-  id Int @id @default(autoincrement())
-  name String
-  email String @unique
-  password String
-  profile Profile?
-  product Product[]
-  order Order[]
-  rating Rating[]
+  id         String    @id
+  name       String
+  email      String    @unique
+  password   String
+  profile_id String    @unique
+  profile    Profile   @relation(fields: [profile_id], references: [id])
+  product    Product[]
+  order      Order[]
+  rating     Rating[]
 }
 
 model Domicile {
-  id Int @id
-  name String
+  id      Int       @id
+  name    String
   shipper Shipper[]
   profile Profile[]
 }
 
 model Profile {
-  id Int @id @default(autoincrement())
-  gender String
-  photo String?
+  id          String   @id
+  gender      String
+  photo       String
   domicile_id Int
-  user_id Int @unique
-  domicile Domicile @relation(fields: [domicile_id], references: [id])
-  user User @relation(fields: [user_id], references: [id])
+  user        User?
+  domicile    Domicile @relation(fields: [domicile_id], references: [id])
 }
 
 model Shipper {
-  id Int @id @default(autoincrement())
-  name String
+  id          Int      @id
+  name        String
   domicile_id Int
-  service String
-  tariff Int
-  unit String
-  oder Order[]
-  domicile Domicile @relation(fields: [domicile_id], references: [id])
+  service     String
+  tariff      Int
+  unit        String
+  oder        Order[]
+  domicile    Domicile @relation(fields: [domicile_id], references: [id])
 }
 
 model Product {
-  id Int @id @default(autoincrement())
-  name String
-  photo String
-  class String
-  quantity Int
-  price Int
-  sold Int
-  discount Int
+  id            String   @id
+  name          String
+  photo         String
+  class         String
+  quantity      Int
+  price         Int
+  sold          Int
+  discount      Int
   free_delivery Boolean
-  rating Int
-  seller_id Int
-  user User @relation(fields: [seller_id], references: [id])
-  utility Utility?
-  habitat Habitat?
-  order Order[]
+  rating        Int
+  seller_id     String
+  user          User     @relation(fields: [seller_id], references: [id])
+  utility       Utility?
+  habitat       Habitat?
+  order         Order[]
   single_rating Rating[]
 }
 
 model Utility {
-  id Int @id @default(autoincrement())
-  peliharaan Boolean
-  peternakan Boolean
-  militer Boolean
+  id           Int     @id
+  peliharaan   Boolean
+  peternakan   Boolean
+  militer      Boolean
   hewan_kurban Boolean
-  material Boolean
-  product_id Int @unique
-  product Product @relation(fields: [product_id], references: [id])
+  material     Boolean
+  product_id   String  @unique
+  product      Product @relation(fields: [product_id], references: [id])
 }
 
 model Habitat {
-  id Int @id @default(autoincrement())
-  darat Boolean
-  air Boolean
-  udara Boolean
-  product_id Int @unique
-  product Product @relation(fields: [product_id], references: [id])
+  id         Int     @id
+  darat      Boolean
+  air        Boolean
+  udara      Boolean
+  product_id String  @unique
+  product    Product @relation(fields: [product_id], references: [id])
 }
 
 model Rating {
-  id Int @id @default(autoincrement())
-  rating Int
-  product_id Int
-  user_id Int 
-  product Product @relation(fields: [product_id], references: [id])
-  user User @relation(fields: [user_id], references: [id])
+  id         String  @id
+  rating     Int
+  product_id String
+  user_id    String
+  product    Product @relation(fields: [product_id], references: [id])
+  user       User    @relation(fields: [user_id], references: [id])
 }
 
 model Order {
-  id Int @id @default(autoincrement())
-  order_date DateTime @db.Date
-  product_id Int
-  buyer_id Int
-  shipper_id Int
-  product Product @relation(fields: [product_id], references: [id])
-  user User @relation(fields: [buyer_id], references: [id])
-  shipper Shipper @relation(fields: [shipper_id], references: [id])
+  id           String       @id
+  order_date   DateTime     @db.Date
+  product_id   String
+  buyer_id     String
+  shipper_id   Int
+  product      Product      @relation(fields: [product_id], references: [id])
+  user         User         @relation(fields: [buyer_id], references: [id])
+  shipper      Shipper      @relation(fields: [shipper_id], references: [id])
   order_detail OrderDetail?
 }
 
 model OrderDetail {
-  id Int @id @default(autoincrement())
-  amount Int
-  total_price Int
-  distance String
+  id           String @id
+  amount       Int
+  total_price  Int
+  distance     String
   total_tariff Int
-  tax Int
-  final_price Int
-  order_id Int @unique
-  order Order @relation(fields: [order_id], references: [id])
+  tax          Int
+  final_price  Int
+  order_id     String @unique
+  order        Order  @relation(fields: [order_id], references: [id])
 }

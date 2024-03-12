@@ -19,9 +19,8 @@
                 "fixStyle": "inline-type-imports"
             }
         ],
-        "camelcase": ["error", { "properties": "always" }],
-        "indent": ["error", 4],
-        "linebreak-style": ["error", "unix"],
+        "indent": "off",
+        "linebreak-style": ["error", "windows"],
         "@typescript-eslint/quotes": ["error", "double"],
         "semi": ["error", "always"]
     }

@@ -1,0 +1,21 @@
+[LOGGER] 24Y_03_12 04:28:44 PM error : [controller][registerUser] - 
+Invalid `tx.user.create()` invocation in
+C:\Ikhsan\My Projects\tokohewan\server\src\services\user.service.ts:27:36
+
+  24         id: true
+  25     }
+  26 });
+→ 27 const user = await tx.user.create(
+Unique constraint failed on the fields: (`email`)
+[LOGGER] 24Y_03_12 07:21:59 PM error : uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Ikhsan\My Projects\tokohewan\server\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Ikhsan\My Projects\tokohewan\server\src\index.ts:5:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)

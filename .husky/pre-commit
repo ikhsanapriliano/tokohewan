@@ -5,13 +5,19 @@ echo "💕🤖💕🤖 server start!! 💕🤖💕🤖"
 cd server
 npm run format ||
 (
-    echo "🤮🤮🤮🤮 [SERVER] [PRETTIER] it's fokin' id*ot - prettier check on server failed 🤮🤮🤮🤮";
+    echo "🤮🤮🤮🤮 [SERVER] [PRETTIER] it's fokin' raw - prettier check on server failed 🤮🤮🤮🤮";
     false;
 )
 
 npm run lint ||
 (
-    echo "🙊🙊🙊🙊 [SERVER] [ESLINT] it's fokin' id*ot - eslint check on server failed 🙊🙊🙊🙊";
+    echo "🙊🙊🙊🙊 [SERVER] [ESLINT] it's fokin' raw - eslint check on server failed 🙊🙊🙊🙊";
+    false;
+)
+
+npm run test ||
+(
+    echo "🎃🎃🎃🎃 [SERVER] [JEST] it's fokin' raw - jest test on server failed 🎃🎃🎃🎃";
     false;
 )
 
@@ -22,7 +28,7 @@ echo "💕🤖💕🤖 client start!! 💕🤖💕🤖"
 cd ../client
 npm run lint || 
 (
-    echo "🙊🙊🙊🙊 [CLIENT] [ESLINT] it's fokin' id*ot - eslint check on client failed 🙊🙊🙊🙊";
+    echo "🙊🙊🙊🙊 [CLIENT] [ESLINT] it's fokin' raw - eslint check on client failed 🙊🙊🙊🙊";
     false;
 )
 

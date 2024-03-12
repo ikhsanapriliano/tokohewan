@@ -1,7 +1,7 @@
 import winston from "winston";
-import type DailyRotateFile from "winston-daily-rotate-file";
+import "winston-daily-rotate-file";
 
-const fileTransport: DailyRotateFile = new winston.transports.DailyRotateFile({
+const fileTransport = new winston.transports.DailyRotateFile({
     filename: "./logs/app-%DATE%.log",
     datePattern: "YYYY-MM-DD",
     zippedArchive: true,
@@ -11,12 +11,11 @@ const fileTransport: DailyRotateFile = new winston.transports.DailyRotateFile({
     handleExceptions: true
 });
 
-const consoleTransport: winston.transports.ConsoleTransportInstance =
-    new winston.transports.Console({
-        level: "silly",
-        handleExceptions: true,
-        format: winston.format.combine(winston.format.colorize({ all: true }))
-    });
+const consoleTransport = new winston.transports.Console({
+    level: "silly",
+    handleExceptions: true,
+    format: winston.format.combine(winston.format.colorize({ all: true }))
+});
 
 const logger: winston.Logger = winston.createLogger({
     level: "silly",
