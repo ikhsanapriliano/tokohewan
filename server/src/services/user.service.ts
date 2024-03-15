@@ -1,5 +1,9 @@
 import ShortUniqueId from "short-unique-id";
-import { type User, type RegisterUser } from "../types/user.type";
+import {
+    type User,
+    type RegisterUser,
+    type LoginUser
+} from "../types/user.type";
 import prisma from "../utils/prisma";
 
 const uid = new ShortUniqueId({ length: 4 });
@@ -49,6 +53,35 @@ export const createUser = async (
         });
 
         return user;
+    });
+
+    return data;
+};
+
+export const findUser = async (payload: LoginUser): Promise<User | null> => {
+    const data = await prisma.user.findUnique({
+        where: {
+            email: payload.email
+        },
+        select: {
+            id: true,
+            name: true,
+            email: true,
+            password: true,
+            profile: {
+                select: {
+                    id: true,
+                    gender: true,
+                    photo: true,
+                    domicile: {
+                        select: {
+                            id: true,
+                            name: true
+                        }
+                    }
+                }
+            }
+        }
     });
 
     return data;

@@ -3,7 +3,7 @@ import app from "../middlewares";
 import prisma from "../utils/prisma";
 
 describe("user controller tests", () => {
-    afterEach(async () => {
+    afterAll(async () => {
         const user = await prisma.user.delete({
             where: {
                 email: "test@gmail.com"
@@ -20,7 +20,7 @@ describe("user controller tests", () => {
     });
 
     it("registerUser test", async () => {
-        const response = await supertest(app).post("/user/register").send({
+        const response = await supertest(app).post("/api/users/register").send({
             name: "test",
             email: "test@gmail.com",
             password: "123456",
@@ -31,5 +31,14 @@ describe("user controller tests", () => {
         });
         expect(response.status).toBe(200);
         expect(response.body.message).toEqual("Register berhasil");
+    });
+
+    it("loginUser test", async () => {
+        const response = await supertest(app).post("/api/users/login").send({
+            email: "test@gmail.com",
+            password: "123456"
+        });
+        expect(response.status).toBe(200);
+        expect(response.body.message).toEqual("Login berhasil");
     });
 });
