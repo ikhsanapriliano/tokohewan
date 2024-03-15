@@ -27,3 +27,8 @@ export interface RegisterUser {
     photo: string;
     domicileId: number;
 }
+
+export interface LoginUser {
+    email: string;
+    password: string;
+}
