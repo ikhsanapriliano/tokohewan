@@ -58,6 +58,7 @@ describe("user simulation test", () => {
                 .set({ Authorization: `Bearer ${accessToken}` });
             expect(response.status).toBe(200);
             expect(response.body.message).toEqual("Ambil product berhasil");
+            expect(response.body.data.length).toBeGreaterThan(0);
         });
 
         it("get products by query params test", async () => {
@@ -71,6 +72,16 @@ describe("user simulation test", () => {
                 .set({ Authorization: `Bearer ${accessToken}` });
             expect(response.status).toBe(200);
             expect(response.body.message).toEqual("Ambil product berhasil");
+            expect(response.body.data.length).toBeGreaterThan(0);
+        });
+
+        it("get product by id test", async () => {
+            const response = await supertest(app)
+                .get("/api/products/PT6yj8")
+                .set({ Authorization: `Bearer ${accessToken}` });
+            expect(response.status).toBe(200);
+            expect(response.body.message).toEqual("Ambil data berhasil");
+            expect(response.body.data).toHaveProperty("id");
         });
     });
 });

@@ -6,8 +6,13 @@ import {
 } from "../types/product.type";
 import {
     findAllProducts,
+    findProductById,
     findProductsByCategory
 } from "../services/product.service";
+import {
+    getProductsValidation,
+    getProductByIdValidation
+} from "../validations/product.validation";
 
 export const getProducts = async (
     req: Request,
@@ -16,13 +21,20 @@ export const getProducts = async (
 ): Promise<Response | undefined> => {
     try {
         const query = req.query;
+        const { error } = getProductsValidation(query);
+        if (error != undefined) {
+            return res.status(400).json({
+                error: error.details[0].message,
+                message: "Ambil data"
+            });
+        }
         let data;
         if (
             query.class === undefined &&
             query.utility === undefined &&
             query.habitat === undefined
         ) {
-            data = findAllProducts();
+            data = await findAllProducts();
         } else {
             if (
                 query.class == "" &&
@@ -51,11 +63,7 @@ export const getProducts = async (
                 }
             };
 
-            if (query.class != "") {
-                searchProduct.class = String(query.class);
-            } else {
-                delete searchProduct.class;
-            }
+            searchProduct.class = String(query.class);
 
             if (searchProduct.utility != undefined) {
                 switch (query.utility) {
@@ -107,7 +115,7 @@ export const getProducts = async (
                 }
             }
 
-            data = findProductsByCategory(searchProduct);
+            data = await findProductsByCategory(searchProduct);
         }
         return res.status(200).json({
             message: "Ambil product berhasil",
@@ -115,5 +123,39 @@ export const getProducts = async (
         });
     } catch (error: Error | unknown) {
         next(new Error(`[controller][product] - ${(error as Error).message}`));
+    }
+};
+
+export const getProductById = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+): Promise<Response | undefined> => {
+    try {
+        const productId = req.params.id;
+        const { error, value } = getProductByIdValidation(productId);
+        if (error !== undefined) {
+            return res.status(400).json({
+                error: error?.details[0].message,
+                message: "Ambil data gagal"
+            });
+        }
+        const data = await findProductById(value);
+        if (data === null) {
+            return res.status(400).json({
+                error: "400 Bad Request",
+                message: "Data dengan id tersebut tidak ditemukan"
+            });
+        }
+        return res.status(200).json({
+            message: "Ambil data berhasil",
+            data
+        });
+    } catch (error: Error | unknown) {
+        next(
+            new Error(
+                `[controller][getProductById] - ${(error as Error).message}`
+            )
+        );
     }
 };

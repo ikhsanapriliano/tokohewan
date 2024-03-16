@@ -1,0 +1,356 @@
+[LOGGER] 24Y_03_16 04:14:27 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m125[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m125[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m125[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m125[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 04:22:36 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m125[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m125[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m125[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m125[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 04:22:47 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m125[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m125[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m125[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m125[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 04:23:07 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m125[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m125[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m125[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m125[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 04:23:30 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m125[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m125[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m125[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m125[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 04:23:34 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m125[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m125[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m125[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m125[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 04:31:02 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m133[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m133[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m136[0m:[93m14[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m136[0m         const
+[7m   [0m [91m             [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m133[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m133[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m136[0m:[93m14[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m136[0m         const
+[7m   [0m [91m             [0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 04:33:11 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m129[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m129[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m132[0m:[93m14[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m132[0m         const
+[7m   [0m [91m             [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m129[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m129[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m132[0m:[93m14[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m132[0m         const
+[7m   [0m [91m             [0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 04:37:56 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m129[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m129[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m132[0m:[93m14[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m132[0m         const
+[7m   [0m [91m             [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m129[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m129[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m132[0m:[93m14[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m132[0m         const
+[7m   [0m [91m             [0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 04:39:19 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m129[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m129[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m132[0m:[93m14[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m132[0m         const
+[7m   [0m [91m             [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m129[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m129[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m132[0m:[93m14[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m132[0m         const
+[7m   [0m [91m             [0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 04:40:26 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m129[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m129[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m132[0m:[93m14[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m132[0m         const
+[7m   [0m [91m             [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m129[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m129[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m132[0m:[93m14[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m132[0m         const
+[7m   [0m [91m             [0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 04:41:42 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m129[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m129[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m132[0m:[93m14[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m132[0m         const
+[7m   [0m [91m             [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m129[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m129[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m132[0m:[93m14[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m132[0m         const
+[7m   [0m [91m             [0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 04:44:40 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m130[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m130[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m130[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m130[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_16 05:10:51 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m143[0m:[93m44[0m - [91merror[0m[90m TS2304: [0mCannot find name 'value'.
+
+[7m143[0m         const data = await findProductById(value);
+[7m   [0m [91m                                           ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m143[0m:[93m44[0m - [91merror[0m[90m TS2304: [0mCannot find name 'value'.
+
+[7m143[0m         const data = await findProductById(value);
+[7m   [0m [91m                                           ~~~~~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
