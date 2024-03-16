@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getProducts } from "../controllers/product.controller";
+import { getProductById, getProducts } from "../controllers/product.controller";
 import { authenticate } from "../middlewares/auth.middleware";
 
 const productRoutes = Router();
@@ -7,7 +7,7 @@ const productRoutes = Router();
 productRoutes.use(authenticate);
 
 productRoutes.get("/", getProducts);
-productRoutes.get("/:id");
+productRoutes.get("/:id", getProductById);
 productRoutes.post("/");
 productRoutes.put("/:id");
 productRoutes.delete("/:id");
