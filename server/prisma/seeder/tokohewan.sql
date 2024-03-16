@@ -20,41 +20,41 @@ INSERT INTO "Shipper" (id, name, domicile_id, service, tariff, unit) VALUES
 (2, 'Slowlifin', 3, 'One Month', 200000, 'Mil'),
 (3, 'Mediexpress', 5, 'Two Weeks', 1000000, 'Mil');
 
-INSERT INTO "Product" (id, name, photo, class, quantity, price, sold, discount, free_delivery, rating, seller_id) VALUES
-('PT6yj8', 'Anjing Pitbull', 'anjing.jpg', 'Mammalia', 10, 1500000, 2, 20, false, 3, 'URk8ff'),
-('PTglkb', 'Kucing Hitam', 'kucing.jpg', 'Mammalia', 12, 600000, 0, 0, true, 0, 'URbnt9'),
-('PTk99t', 'Sapi', 'sapi.jpg', 'Mammalia', 9, 22000000, 3, 15, false, 4, 'URh92r'),
-('PTlfse', 'Buaya', 'buaya.jpg', 'Reptilia', 2, 1400000000, 2, 0, true, 5, 'URh92r'),
-('PTorm4', 'Burung Kaka Tua', 'burung-kaka-tua.jpg', 'Aves', 18, 820000, 0, 11, false, 0, 'URk8ff'),
-('PTldfm', 'Burung Elang', 'burung-elang.jpg', 'Aves', 1, 2000000000, 1, 0, true, 5, 'URbnt9'),
-('PTpplr', 'Ular Anaconda', 'ular-anaconda.jpg', 'Reptilia', 7, 17000000, 0, 90, false, 0, 'URk8ff'),
-('PTnm7v', 'Kodok', 'kodok.jpg', 'Amphibia', 25, 20000, 0, 0, true, 0, 'URh92r'),
-('PTcxi3', 'Ikan Hiu', 'ikan-hiu.jpg', 'Chondrichthyes', 4, 1800000000, 0, 0, true, 0, 'URbnt9'),
-('PTkt88', 'Kalajengking', 'kalajengking.jpg', 'Arachnida', 10, 5000000, 0, 50, true, 0, 'URk8ff');
+INSERT INTO "Utility" (id, peliharaan, peternakan, militer, hewan_kurban, material) VALUES
+('UYkdlf', true, false, true, false, false),
+('UYiir6', true, false, false, false, false),
+('UY93jg', false, true, false, true, true),
+('UYafl3', true, false, false, false, true),
+('UY94jg', true, false, false, false, false),
+('UYgrbn', true, false, true, false, false),
+('UYaafg', true, false, false, false, true),
+('UYf0ru', true, false, false, false, true),
+('UYdjnh', true, false, false, false, true),
+('UYvufn', false, false, false, false, true);
 
-INSERT INTO "Utility" (id, peliharaan, peternakan, militer, hewan_kurban, material, product_id) VALUES
-(1, true, false, true, false, false, 'PT6yj8'),
-(2, true, false, false, false, false, 'PTglkb'),
-(3, false, true, false, true, true, 'PTk99t'),
-(4, true, false, false, false, true, 'PTlfse'),
-(5, true, false, false, false, false, 'PTorm4'),
-(6, true, false, true, false, false, 'PTldfm'),
-(7, true, false, false, false, true, 'PTpplr'),
-(8, true, false, false, false, true, 'PTnm7v'),
-(9, true, false, false, false, true, 'PTcxi3'),
-(10, false, false, false, false, true, 'PTkt88');
+INSERT INTO "Habitat" (id, darat, air, udara) VALUES
+('HTmfgn', true, false, false),
+('HTdlei', true, false, false),
+('HTfaor', true, false, false),
+('HTspfe', true, true, false),
+('HTalvv', true, false, true),
+('HTdfo8', true, false, true),
+('HTsif7', true, false, false),
+('HTdo33', true, true, false),
+('HTf944', false, true, false),
+('HTaldh', true, false, false);
 
-INSERT INTO "Habitat" (id, darat, air, udara, product_id) VALUES
-(1, true, false, false, 'PT6yj8'),
-(2, true, false, false, 'PTglkb'),
-(3, true, false, false, 'PTk99t'),
-(4, true, true, false, 'PTlfse'),
-(5, true, false, true, 'PTorm4'),
-(6, true, false, true, 'PTldfm'),
-(7, true, false, false, 'PTpplr'),
-(8, true, true, false, 'PTnm7v'),
-(9, false, true, false, 'PTcxi3'),
-(10, true, false, false, 'PTkt88');
+INSERT INTO "Product" (id, name, photo, class, utility_id, habitat_id, quantity, price, sold, discount, free_delivery, rating, seller_id) VALUES
+('PT6yj8', 'Anjing Pitbull', 'anjing.jpg', 'Mammalia', 'UYkdlf', 'HTmfgn', 10, 1500000, 2, 20, false, 3, 'URk8ff'),
+('PTglkb', 'Kucing Hitam', 'kucing.jpg', 'Mammalia', 'UYiir6', 'HTdlei', 12, 600000, 0, 0, true, 0, 'URbnt9'),
+('PTk99t', 'Sapi', 'sapi.jpg', 'Mammalia', 'UY93jg', 'HTfaor', 9, 22000000, 3, 15, false, 4, 'URh92r'),
+('PTlfse', 'Buaya', 'buaya.jpg', 'Reptilia', 'UYafl3', 'HTspfe', 2, 1400000000, 2, 0, true, 5, 'URh92r'),
+('PTorm4', 'Burung Kaka Tua', 'burung-kaka-tua.jpg', 'Aves', 'UY94jg', 'HTalvv', 18, 820000, 0, 11, false, 0, 'URk8ff'),
+('PTldfm', 'Burung Elang', 'burung-elang.jpg', 'Aves', 'UYgrbn', 'HTdfo8', 1, 2000000000, 1, 0, true, 5, 'URbnt9'),
+('PTpplr', 'Ular Anaconda', 'ular-anaconda.jpg', 'Reptilia', 'UYaafg', 'HTsif7', 7, 17000000, 0, 90, false, 0, 'URk8ff'),
+('PTnm7v', 'Kodok', 'kodok.jpg', 'Amphibia', 'UYf0ru', 'HTdo33', 25, 20000, 0, 0, true, 0, 'URh92r'),
+('PTcxi3', 'Ikan Hiu', 'ikan-hiu.jpg', 'Chondrichthyes', 'UYdjnh', 'HTf944', 4, 1800000000, 0, 0, true, 0, 'URbnt9'),
+('PTkt88', 'Kalajengking', 'kalajengking.jpg', 'Arachnida', 'UYvufn', 'HTaldh', 10, 5000000, 0, 50, true, 0, 'URk8ff');
 
 INSERT INTO "Rating" (id, rating, product_id, user_id) VALUES
 ('RG66fm', 3, 'PT6yj8', 'URk8ff'),

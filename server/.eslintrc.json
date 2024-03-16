@@ -11,17 +11,17 @@
     },
     "plugins": ["@typescript-eslint", "prettier"],
     "rules": {
-        "prettier/prettier": "error",
+        "prettier/prettier": "warn",
         "@typescript-eslint/consistent-type-imports": [
-            "error",
+            "warn",
             {
                 "prefer": "type-imports",
                 "fixStyle": "inline-type-imports"
             }
         ],
         "indent": "off",
-        "linebreak-style": ["error", "windows"],
-        "@typescript-eslint/quotes": ["error", "double"],
-        "semi": ["error", "always"]
+        "linebreak-style": ["warn", "windows"],
+        "@typescript-eslint/quotes": ["warn", "double"],
+        "semi": ["warn", "always"]
     }
 }

@@ -1,5 +1,5 @@
 import "dotenv/config";
-import jsonWebToken from "jsonwebtoken";
+import jsonWebToken, { type JwtPayload } from "jsonwebtoken";
 import { type LoginUser } from "../types/user.type";
 
 export const generateAccessToken = (user: LoginUser): string => {
@@ -10,4 +10,14 @@ export const generateAccessToken = (user: LoginUser): string => {
                 : "1800s"
     });
     return token;
+};
+
+export const verifyAccessToken = (
+    token: string
+): string | null | JwtPayload => {
+    try {
+        return jsonWebToken.verify(token, String(process.env.JWT_SECRET));
+    } catch (error) {
+        return null;
+    }
 };
