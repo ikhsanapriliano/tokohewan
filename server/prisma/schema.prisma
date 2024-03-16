@@ -57,6 +57,8 @@ model Product {
   name          String
   photo         String
   class         String
+  utility_id    String @unique
+  habitat_id    String @unique
   quantity      Int
   price         Int
   sold          Int
@@ -65,30 +67,28 @@ model Product {
   rating        Int
   seller_id     String
   user          User     @relation(fields: [seller_id], references: [id])
-  utility       Utility?
-  habitat       Habitat?
+  utility       Utility @relation(fields: [utility_id], references: [id])
+  habitat       Habitat @relation(fields: [habitat_id], references: [id])
   order         Order[]
   single_rating Rating[]
 }
 
 model Utility {
-  id           Int     @id
+  id           String     @id
   peliharaan   Boolean
   peternakan   Boolean
   militer      Boolean
   hewan_kurban Boolean
   material     Boolean
-  product_id   String  @unique
-  product      Product @relation(fields: [product_id], references: [id])
+  product Product?
 }
 
 model Habitat {
-  id         Int     @id
+  id         String     @id
   darat      Boolean
   air        Boolean
   udara      Boolean
-  product_id String  @unique
-  product    Product @relation(fields: [product_id], references: [id])
+  product    Product?
 }
 
 model Rating {
