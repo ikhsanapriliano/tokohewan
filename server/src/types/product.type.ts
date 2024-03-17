@@ -33,3 +33,15 @@ export interface SearchProduct {
     utility?: Utility;
     habitat?: Habitat;
 }
+
+export interface InputProduct {
+    name: string;
+    photo: string;
+    class: string;
+    utility: string[];
+    habitat: string[];
+    price: number;
+    discount: number;
+    seller_id: string;
+    quantity: number;
+}

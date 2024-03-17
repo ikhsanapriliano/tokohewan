@@ -5,13 +5,15 @@ import {
     type Habitat
 } from "../types/product.type";
 import {
+    createProduct,
     findAllProducts,
     findProductById,
     findProductsByCategory
 } from "../services/product.service";
 import {
     getProductsValidation,
-    getProductByIdValidation
+    getProductByIdValidation,
+    addProductValidation
 } from "../validations/product.validation";
 
 export const getProducts = async (
@@ -156,6 +158,35 @@ export const getProductById = async (
             new Error(
                 `[controller][getProductById] - ${(error as Error).message}`
             )
+        );
+    }
+};
+
+export const addProduct = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+): Promise<Response | undefined> => {
+    try {
+        const payload = req.body;
+        const { error, value } = addProductValidation(payload);
+        if (error !== undefined) {
+            return res.status(400).json({
+                error: error.details[0].message,
+                message: "Input tidak valid"
+            });
+        }
+        if (value.photo == "") {
+            value.photo = "product.jpg";
+        }
+        const data = await createProduct(value);
+        return res.status(200).json({
+            message: "Tambah data berhasil",
+            data
+        });
+    } catch (error: Error | unknown) {
+        next(
+            new Error(`[controller][addProduct] - ${(error as Error).message}`)
         );
     }
 };
