@@ -392,3 +392,58 @@ export const updateProduct = async (
 
     return data;
 };
+
+export const removeProduct = async (id: string): Promise<Product> => {
+    const data = await prisma.$transaction(async (tx) => {
+        const product = await tx.product.delete({
+            where: {
+                id
+            },
+            select: {
+                id: true,
+                name: true,
+                photo: true,
+                class: true,
+                utility: {
+                    select: {
+                        id: true,
+                        peliharaan: true,
+                        peternakan: true,
+                        militer: true,
+                        hewan_kurban: true,
+                        material: true
+                    }
+                },
+                habitat: {
+                    select: {
+                        id: true,
+                        darat: true,
+                        air: true,
+                        udara: true
+                    }
+                },
+                price: true,
+                discount: true,
+                free_delivery: true,
+                rating: true,
+                seller_id: true,
+                quantity: true,
+                sold: true
+            }
+        });
+        await tx.utility.delete({
+            where: {
+                id: product.utility.id
+            }
+        });
+        await tx.habitat.delete({
+            where: {
+                id: product.habitat.id
+            }
+        });
+
+        return product;
+    });
+
+    return data;
+};

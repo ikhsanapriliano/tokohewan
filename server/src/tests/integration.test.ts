@@ -7,25 +7,6 @@ let accessToken: string = "";
 let productId: string = "";
 
 afterAll(async () => {
-    const product = await prisma.product.delete({
-        where: {
-            id: productId
-        },
-        select: {
-            utility_id: true,
-            habitat_id: true
-        }
-    });
-    await prisma.utility.delete({
-        where: {
-            id: product.utility_id
-        }
-    });
-    await prisma.habitat.delete({
-        where: {
-            id: product.habitat_id
-        }
-    });
     const user = await prisma.user.delete({
         where: {
             email: "test@gmail.com"
@@ -143,6 +124,15 @@ describe("user simulation test", () => {
                 .set({ Authorization: `Bearer ${accessToken}` });
             expect(response.status).toBe(200);
             expect(response.body.message).toEqual("Ambil data berhasil");
+            expect(response.body.data).toHaveProperty("id");
+        });
+
+        it("delete product test", async () => {
+            const response = await supertest(app)
+                .delete(`/api/products/${productId}`)
+                .set({ Authorization: `Bearer ${accessToken}` });
+            expect(response.status).toBe(200);
+            expect(response.body.message).toEqual("Hapus data berhasil");
             expect(response.body.data).toHaveProperty("id");
         });
     });
