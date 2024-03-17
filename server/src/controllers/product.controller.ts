@@ -9,6 +9,7 @@ import {
     findAllProducts,
     findProductById,
     findProductsByCategory,
+    removeProduct,
     updateProduct
 } from "../services/product.service";
 import {
@@ -219,6 +220,27 @@ export const editProduct = async (
     } catch (error: Error | unknown) {
         next(
             new Error(`[controller][editProduct] - ${(error as Error).message}`)
+        );
+    }
+};
+
+export const deleteProduct = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+): Promise<Response | undefined> => {
+    try {
+        const productId = req.params.id;
+        const data = await removeProduct(productId);
+        return res.status(200).json({
+            message: "Hapus data berhasil",
+            data
+        });
+    } catch (error: Error | unknown) {
+        next(
+            new Error(
+                `[controller][deleteProduct] - ${(error as Error).message}`
+            )
         );
     }
 };
