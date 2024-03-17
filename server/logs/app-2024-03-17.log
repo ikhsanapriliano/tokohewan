@@ -1,0 +1,1589 @@
+[LOGGER] 24Y_03_17 10:24:42 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 10:37:52 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 10:38:14 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 10:38:20 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 10:38:27 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 10:46:40 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 10:57:35 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 11:01:25 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 11:04:25 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 11:13:46 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m14[0m - [91merror[0m[90m TS7005: [0mVariable 'addProduct' implicitly has an 'any' type.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m             ~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m167[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m167[0m ): Promise<Response | undefined> => {
+[7m   [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/product.controller.ts[0m:[93m163[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m163[0m export const addProduct(
+[7m   [0m [91m                       ~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 11:14:45 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m120[0m:[93m61[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m120[0m export const createProduct = async (payload: InputProduct): Promise<InputProduct> => {
+[7m   [0m [91m                                                            ~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m198[0m:[93m17[0m - [91merror[0m[90m TS2552: [0mCannot find name 'utility_id'. Did you mean 'utilityId'?
+
+[7m198[0m                 utility_id    String @unique
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/product.service.ts[0m:[93m168[0m:[93m15[0m
+    [7m168[0m         const utilityId = await tx.utility.create({
+    [7m   [0m [96m              ~~~~~~~~~[0m
+    'utilityId' is declared here.
+[96msrc/services/product.service.ts[0m:[93m198[0m:[93m38[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 32.
+
+[7m198[0m                 utility_id    String @unique
+[7m   [0m [91m                                     ~~~~~~~[0m
+[7m199[0m                 habitat_id    String @unique
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m210[0m                 order         Order[]
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m199[0m:[93m17[0m - [91merror[0m[90m TS2552: [0mCannot find name 'habitat_id'. Did you mean 'habitatId'?
+
+[7m199[0m                 habitat_id    String @unique
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/product.service.ts[0m:[93m181[0m:[93m15[0m
+    [7m181[0m         const habitatId = await tx.habitat.create({
+    [7m   [0m [96m              ~~~~~~~~~[0m
+    'habitatId' is declared here.
+[96msrc/services/product.service.ts[0m:[93m200[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'quantity'.
+
+[7m200[0m                 quantity      Int
+[7m   [0m [91m                ~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m200[0m:[93m31[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Int'. Did you mean 'Intl'?
+
+[7m200[0m                 quantity      Int
+[7m   [0m [91m                              ~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m4396[0m:[93m19[0m
+    [7m4396[0m declare namespace Intl {
+    [7m    [0m [96m                  ~~~~[0m
+    'Intl' is declared here.
+[96msrc/services/product.service.ts[0m:[93m201[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'price'.
+
+[7m201[0m                 price         Int
+[7m   [0m [91m                ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m201[0m:[93m31[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Int'. Did you mean 'Intl'?
+
+[7m201[0m                 price         Int
+[7m   [0m [91m                              ~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m4396[0m:[93m19[0m
+    [7m4396[0m declare namespace Intl {
+    [7m    [0m [96m                  ~~~~[0m
+    'Intl' is declared here.
+[96msrc/services/product.service.ts[0m:[93m202[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'sold'.
+
+[7m202[0m                 sold          Int
+[7m   [0m [91m                ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m202[0m:[93m31[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Int'. Did you mean 'Intl'?
+
+[7m202[0m                 sold          Int
+[7m   [0m [91m                              ~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m4396[0m:[93m19[0m
+    [7m4396[0m declare namespace Intl {
+    [7m    [0m [96m                  ~~~~[0m
+    'Intl' is declared here.
+[96msrc/services/product.service.ts[0m:[93m203[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'discount'.
+
+[7m203[0m                 discount      Int
+[7m   [0m [91m                ~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m203[0m:[93m31[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Int'. Did you mean 'Intl'?
+
+[7m203[0m                 discount      Int
+[7m   [0m [91m                              ~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m4396[0m:[93m19[0m
+    [7m4396[0m declare namespace Intl {
+    [7m    [0m [96m                  ~~~~[0m
+    'Intl' is declared here.
+[96msrc/services/product.service.ts[0m:[93m204[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'free_delivery'.
+
+[7m204[0m                 free_delivery Boolean
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'rating'.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Int'.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m206[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'seller_id'.
+
+[7m206[0m                 seller_id     String
+[7m   [0m [91m                ~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'user'.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                              ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m31[0m - [91merror[0m[90m TS2693: [0m'Utility' only refers to a type, but is being used as a value here.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m31[0m - [91merror[0m[90m TS2693: [0m'Habitat' only refers to a type, but is being used as a value here.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'order'.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Order'.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                              ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'single_rating'.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Rating'.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m197[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m197[0m                 class         String
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m198[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m198[0m                 utility_id    String @unique
+[7m   [0m [91m                ~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m198[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m198[0m                 utility_id    String @unique
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m198[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m198[0m                 utility_id    String @unique
+[7m   [0m [91m                                     ~[0m
+[96msrc/services/product.service.ts[0m:[93m198[0m:[93m45[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m198[0m                 utility_id    String @unique
+[7m   [0m [91m                                            [0m
+[96msrc/services/product.service.ts[0m:[93m199[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m199[0m                 habitat_id    String @unique
+[7m   [0m [91m                ~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m199[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m199[0m                 habitat_id    String @unique
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m199[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m199[0m                 habitat_id    String @unique
+[7m   [0m [91m                                     ~[0m
+[96msrc/services/product.service.ts[0m:[93m199[0m:[93m45[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m199[0m                 habitat_id    String @unique
+[7m   [0m [91m                                            [0m
+[96msrc/services/product.service.ts[0m:[93m200[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m200[0m                 quantity      Int
+[7m   [0m [91m                ~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m200[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m200[0m                 quantity      Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m201[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m201[0m                 price         Int
+[7m   [0m [91m                ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m201[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m201[0m                 price         Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m202[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m202[0m                 sold          Int
+[7m   [0m [91m                ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m202[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m202[0m                 sold          Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m203[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m203[0m                 discount      Int
+[7m   [0m [91m                ~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m203[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m203[0m                 discount      Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m204[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m204[0m                 free_delivery Boolean
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m204[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m204[0m                 free_delivery Boolean
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m206[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m206[0m                 seller_id     String
+[7m   [0m [91m                ~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m206[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m206[0m                 seller_id     String
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                              ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                       ~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m56[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                                       ~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                                                                ~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                                                                       [0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                                                                ~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                                                                       [0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                                                                ~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                                                                       [0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                              ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m37[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                                    [0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m38[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                                     [0m
+[96msrc/services/product.service.ts[0m:[93m212[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m212[0m             }
+[7m   [0m [91m            ~[0m
+[96msrc/services/product.service.ts[0m:[93m213[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m213[0m         })
+[7m   [0m [91m        ~[0m
+[96msrc/services/product.service.ts[0m:[93m213[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m213[0m         })
+[7m   [0m [91m         ~[0m
+[96msrc/services/product.service.ts[0m:[93m214[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m214[0m     })
+[7m   [0m [91m    ~[0m
+[96msrc/services/product.service.ts[0m:[93m214[0m:[93m6[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m214[0m     })
+[7m   [0m [91m     ~[0m
+[96msrc/services/product.service.ts[0m:[93m215[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m215[0m };
+[7m   [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m120[0m:[93m61[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m120[0m export const createProduct = async (payload: InputProduct): Promise<InputProduct> => {
+[7m   [0m [91m                                                            ~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m198[0m:[93m17[0m - [91merror[0m[90m TS2552: [0mCannot find name 'utility_id'. Did you mean 'utilityId'?
+
+[7m198[0m                 utility_id    String @unique
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/product.service.ts[0m:[93m168[0m:[93m15[0m
+    [7m168[0m         const utilityId = await tx.utility.create({
+    [7m   [0m [96m              ~~~~~~~~~[0m
+    'utilityId' is declared here.
+[96msrc/services/product.service.ts[0m:[93m198[0m:[93m38[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 32.
+
+[7m198[0m                 utility_id    String @unique
+[7m   [0m [91m                                     ~~~~~~~[0m
+[7m199[0m                 habitat_id    String @unique
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m210[0m                 order         Order[]
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m199[0m:[93m17[0m - [91merror[0m[90m TS2552: [0mCannot find name 'habitat_id'. Did you mean 'habitatId'?
+
+[7m199[0m                 habitat_id    String @unique
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/product.service.ts[0m:[93m181[0m:[93m15[0m
+    [7m181[0m         const habitatId = await tx.habitat.create({
+    [7m   [0m [96m              ~~~~~~~~~[0m
+    'habitatId' is declared here.
+[96msrc/services/product.service.ts[0m:[93m200[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'quantity'.
+
+[7m200[0m                 quantity      Int
+[7m   [0m [91m                ~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m200[0m:[93m31[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Int'. Did you mean 'Intl'?
+
+[7m200[0m                 quantity      Int
+[7m   [0m [91m                              ~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m4396[0m:[93m19[0m
+    [7m4396[0m declare namespace Intl {
+    [7m    [0m [96m                  ~~~~[0m
+    'Intl' is declared here.
+[96msrc/services/product.service.ts[0m:[93m201[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'price'.
+
+[7m201[0m                 price         Int
+[7m   [0m [91m                ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m201[0m:[93m31[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Int'. Did you mean 'Intl'?
+
+[7m201[0m                 price         Int
+[7m   [0m [91m                              ~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m4396[0m:[93m19[0m
+    [7m4396[0m declare namespace Intl {
+    [7m    [0m [96m                  ~~~~[0m
+    'Intl' is declared here.
+[96msrc/services/product.service.ts[0m:[93m202[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'sold'.
+
+[7m202[0m                 sold          Int
+[7m   [0m [91m                ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m202[0m:[93m31[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Int'. Did you mean 'Intl'?
+
+[7m202[0m                 sold          Int
+[7m   [0m [91m                              ~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m4396[0m:[93m19[0m
+    [7m4396[0m declare namespace Intl {
+    [7m    [0m [96m                  ~~~~[0m
+    'Intl' is declared here.
+[96msrc/services/product.service.ts[0m:[93m203[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'discount'.
+
+[7m203[0m                 discount      Int
+[7m   [0m [91m                ~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m203[0m:[93m31[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Int'. Did you mean 'Intl'?
+
+[7m203[0m                 discount      Int
+[7m   [0m [91m                              ~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m4396[0m:[93m19[0m
+    [7m4396[0m declare namespace Intl {
+    [7m    [0m [96m                  ~~~~[0m
+    'Intl' is declared here.
+[96msrc/services/product.service.ts[0m:[93m204[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'free_delivery'.
+
+[7m204[0m                 free_delivery Boolean
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'rating'.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Int'.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m206[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'seller_id'.
+
+[7m206[0m                 seller_id     String
+[7m   [0m [91m                ~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'user'.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                              ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m31[0m - [91merror[0m[90m TS2693: [0m'Utility' only refers to a type, but is being used as a value here.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m31[0m - [91merror[0m[90m TS2693: [0m'Habitat' only refers to a type, but is being used as a value here.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'order'.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Order'.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                              ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'single_rating'.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Rating'.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m197[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m197[0m                 class         String
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m198[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m198[0m                 utility_id    String @unique
+[7m   [0m [91m                ~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m198[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m198[0m                 utility_id    String @unique
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m198[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m198[0m                 utility_id    String @unique
+[7m   [0m [91m                                     ~[0m
+[96msrc/services/product.service.ts[0m:[93m198[0m:[93m45[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m198[0m                 utility_id    String @unique
+[7m   [0m [91m                                            [0m
+[96msrc/services/product.service.ts[0m:[93m199[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m199[0m                 habitat_id    String @unique
+[7m   [0m [91m                ~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m199[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m199[0m                 habitat_id    String @unique
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m199[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m199[0m                 habitat_id    String @unique
+[7m   [0m [91m                                     ~[0m
+[96msrc/services/product.service.ts[0m:[93m199[0m:[93m45[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m199[0m                 habitat_id    String @unique
+[7m   [0m [91m                                            [0m
+[96msrc/services/product.service.ts[0m:[93m200[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m200[0m                 quantity      Int
+[7m   [0m [91m                ~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m200[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m200[0m                 quantity      Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m201[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m201[0m                 price         Int
+[7m   [0m [91m                ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m201[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m201[0m                 price         Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m202[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m202[0m                 sold          Int
+[7m   [0m [91m                ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m202[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m202[0m                 sold          Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m203[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m203[0m                 discount      Int
+[7m   [0m [91m                ~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m203[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m203[0m                 discount      Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m204[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m204[0m                 free_delivery Boolean
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m204[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m204[0m                 free_delivery Boolean
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m206[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m206[0m                 seller_id     String
+[7m   [0m [91m                ~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m206[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m206[0m                 seller_id     String
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                              ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                       ~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m56[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                                       ~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                                                                ~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                                                                       [0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                                                                ~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                                                                       [0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                                                                ~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                                                                       [0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                              ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m37[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                                    [0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m38[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                                     [0m
+[96msrc/services/product.service.ts[0m:[93m212[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m212[0m             }
+[7m   [0m [91m            ~[0m
+[96msrc/services/product.service.ts[0m:[93m213[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m213[0m         })
+[7m   [0m [91m        ~[0m
+[96msrc/services/product.service.ts[0m:[93m213[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m213[0m         })
+[7m   [0m [91m         ~[0m
+[96msrc/services/product.service.ts[0m:[93m214[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m214[0m     })
+[7m   [0m [91m    ~[0m
+[96msrc/services/product.service.ts[0m:[93m214[0m:[93m6[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m214[0m     })
+[7m   [0m [91m     ~[0m
+[96msrc/services/product.service.ts[0m:[93m215[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m215[0m };
+[7m   [0m [91m~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 11:16:29 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m120[0m:[93m61[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m120[0m export const createProduct = async (payload: InputProduct): Promise<InputProduct> => {
+[7m   [0m [91m                                                            ~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m204[0m:[93m17[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'free_delivery'. Either declare one or provide an initializer.
+
+[7m204[0m                 free_delivery Boolean
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m17[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'rating'. Either declare one or provide an initializer.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m31[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Int'. Did you mean 'Intl'?
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                              ~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m4396[0m:[93m19[0m
+    [7m4396[0m declare namespace Intl {
+    [7m    [0m [96m                  ~~~~[0m
+    'Intl' is declared here.
+[96msrc/services/product.service.ts[0m:[93m206[0m:[93m17[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'seller_id'. Either declare one or provide an initializer.
+
+[7m206[0m                 seller_id     String
+[7m   [0m [91m                ~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m17[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'user'. Either declare one or provide an initializer.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m31[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'User'. Either declare one or provide an initializer.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                              ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m40[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 12.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m210[0m                 order         Order[]
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m31[0m - [91merror[0m[90m TS2693: [0m'Utility' only refers to a type, but is being used as a value here.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m31[0m - [91merror[0m[90m TS2693: [0m'Habitat' only refers to a type, but is being used as a value here.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'order'.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Order'.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                              ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'single_rating'.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Rating'.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m204[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m204[0m                 free_delivery Boolean
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m206[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m206[0m                 seller_id     String
+[7m   [0m [91m                ~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m206[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m206[0m                 seller_id     String
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                              ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                       ~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m56[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                                       ~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                                                                ~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                                                                       [0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                                                                ~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                                                                       [0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                                                                ~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                                                                       [0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                              ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m37[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                                    [0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m38[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                                     [0m
+[96msrc/services/product.service.ts[0m:[93m212[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m212[0m             }
+[7m   [0m [91m            ~[0m
+[96msrc/services/product.service.ts[0m:[93m213[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m213[0m         })
+[7m   [0m [91m        ~[0m
+[96msrc/services/product.service.ts[0m:[93m213[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m213[0m         })
+[7m   [0m [91m         ~[0m
+[96msrc/services/product.service.ts[0m:[93m214[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m214[0m     })
+[7m   [0m [91m    ~[0m
+[96msrc/services/product.service.ts[0m:[93m214[0m:[93m6[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m214[0m     })
+[7m   [0m [91m     ~[0m
+[96msrc/services/product.service.ts[0m:[93m215[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m215[0m };
+[7m   [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m120[0m:[93m61[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m120[0m export const createProduct = async (payload: InputProduct): Promise<InputProduct> => {
+[7m   [0m [91m                                                            ~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m204[0m:[93m17[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'free_delivery'. Either declare one or provide an initializer.
+
+[7m204[0m                 free_delivery Boolean
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m17[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'rating'. Either declare one or provide an initializer.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m31[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Int'. Did you mean 'Intl'?
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                              ~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m4396[0m:[93m19[0m
+    [7m4396[0m declare namespace Intl {
+    [7m    [0m [96m                  ~~~~[0m
+    'Intl' is declared here.
+[96msrc/services/product.service.ts[0m:[93m206[0m:[93m17[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'seller_id'. Either declare one or provide an initializer.
+
+[7m206[0m                 seller_id     String
+[7m   [0m [91m                ~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m17[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'user'. Either declare one or provide an initializer.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m31[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'User'. Either declare one or provide an initializer.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                              ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m40[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 12.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m210[0m                 order         Order[]
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m31[0m - [91merror[0m[90m TS2693: [0m'Utility' only refers to a type, but is being used as a value here.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m31[0m - [91merror[0m[90m TS2693: [0m'Habitat' only refers to a type, but is being used as a value here.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'order'.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Order'.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                              ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'single_rating'.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Rating'.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m204[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m204[0m                 free_delivery Boolean
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m205[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m205[0m                 rating        Int
+[7m   [0m [91m                              ~~~[0m
+[96msrc/services/product.service.ts[0m:[93m206[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m206[0m                 seller_id     String
+[7m   [0m [91m                ~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m206[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m206[0m                 seller_id     String
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                              ~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                       ~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m56[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                                       ~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                                                                ~[0m
+[96msrc/services/product.service.ts[0m:[93m207[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m207[0m                 user          User     @relation(fields: [seller_id], references: [id])
+[7m   [0m [91m                                                                                       [0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                                                                ~[0m
+[96msrc/services/product.service.ts[0m:[93m208[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m208[0m                 utility       Utility @relation(fields: [utility_id], references: [id])
+[7m   [0m [91m                                                                                       [0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                              ~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                                      ~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                                                                ~[0m
+[96msrc/services/product.service.ts[0m:[93m209[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m209[0m                 habitat       Habitat @relation(fields: [habitat_id], references: [id])
+[7m   [0m [91m                                                                                       [0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                              ~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m210[0m:[93m37[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m210[0m                 order         Order[]
+[7m   [0m [91m                                    [0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                ~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m211[0m:[93m38[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m211[0m                 single_rating Rating[]
+[7m   [0m [91m                                     [0m
+[96msrc/services/product.service.ts[0m:[93m212[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m212[0m             }
+[7m   [0m [91m            ~[0m
+[96msrc/services/product.service.ts[0m:[93m213[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m213[0m         })
+[7m   [0m [91m        ~[0m
+[96msrc/services/product.service.ts[0m:[93m213[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m213[0m         })
+[7m   [0m [91m         ~[0m
+[96msrc/services/product.service.ts[0m:[93m214[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m214[0m     })
+[7m   [0m [91m    ~[0m
+[96msrc/services/product.service.ts[0m:[93m214[0m:[93m6[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m214[0m     })
+[7m   [0m [91m     ~[0m
+[96msrc/services/product.service.ts[0m:[93m215[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m215[0m };
+[7m   [0m [91m~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 11:19:28 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m120[0m:[93m61[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m120[0m export const createProduct = async (payload: InputProduct): Promise<InputProduct> => {
+[7m   [0m [91m                                                            ~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m200[0m:[93m17[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'name' does not exist in type '(Without<HabitatCreateInput, HabitatUncheckedCreateInput> & HabitatUncheckedCreateInput) | (Without<...> & HabitatCreateInput)'.
+
+[7m200[0m                 name: payload.name,
+[7m   [0m [91m                ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m8554[0m:[93m5[0m
+    [7m8554[0m     data: XOR<HabitatCreateInput, HabitatUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: HabitatSelect<DefaultArgs> | null | undefined; include?: HabitatInclude<DefaultArgs> | null | undefined; data: (Without<...> & HabitatUncheckedCreateInput) | (Without<...> & HabitatCreateInput); }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m120[0m:[93m61[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m120[0m export const createProduct = async (payload: InputProduct): Promise<InputProduct> => {
+[7m   [0m [91m                                                            ~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/product.service.ts[0m:[93m200[0m:[93m17[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'name' does not exist in type '(Without<HabitatCreateInput, HabitatUncheckedCreateInput> & HabitatUncheckedCreateInput) | (Without<...> & HabitatCreateInput)'.
+
+[7m200[0m                 name: payload.name,
+[7m   [0m [91m                ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m8554[0m:[93m5[0m
+    [7m8554[0m     data: XOR<HabitatCreateInput, HabitatUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: HabitatSelect<DefaultArgs> | null | undefined; include?: HabitatInclude<DefaultArgs> | null | undefined; data: (Without<...> & HabitatUncheckedCreateInput) | (Without<...> & HabitatCreateInput); }'
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 11:22:15 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m247[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType '{ name: string; photo: string; utility: { peliharaan: boolean; peternakan: boolean; militer: boolean; hewan_kurban: boolean; material: boolean; }; habitat: { darat: boolean; air: boolean; udara: boolean; }; ... 8 more ...; seller_id: string; }' is not assignable to type 'InputProduct'.
+  Types of property 'utility' are incompatible.
+    Type '{ peliharaan: boolean; peternakan: boolean; militer: boolean; hewan_kurban: boolean; material: boolean; }' is missing the following properties from type 'string[]': length, pop, push, concat, and 29 more.
+
+[7m247[0m     return data
+[7m   [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m247[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType '{ name: string; photo: string; utility: { peliharaan: boolean; peternakan: boolean; militer: boolean; hewan_kurban: boolean; material: boolean; }; habitat: { darat: boolean; air: boolean; udara: boolean; }; ... 8 more ...; seller_id: string; }' is not assignable to type 'InputProduct'.
+  Types of property 'utility' are incompatible.
+    Type '{ peliharaan: boolean; peternakan: boolean; militer: boolean; hewan_kurban: boolean; material: boolean; }' is missing the following properties from type 'string[]': length, pop, push, concat, and 29 more.
+
+[7m247[0m     return data
+[7m   [0m [91m    ~~~~~~[0m
+
+    at createTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Ikhsan\My Projects\tokohewan\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[LOGGER] 24Y_03_17 11:42:27 AM error : [controller][registerUser] - 
+Invalid `tx.user.create()` invocation in
+C:\Ikhsan\My Projects\tokohewan\server\src\services\user.service.ts:26:36
+
+  23         id: true
+  24     }
+  25 });
+→ 26 const user = await tx.user.create(
+Unique constraint failed on the fields: (`email`)
