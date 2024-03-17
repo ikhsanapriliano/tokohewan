@@ -8,12 +8,14 @@ import {
     createProduct,
     findAllProducts,
     findProductById,
-    findProductsByCategory
+    findProductsByCategory,
+    updateProduct
 } from "../services/product.service";
 import {
     getProductsValidation,
     getProductByIdValidation,
-    addProductValidation
+    addProductValidation,
+    editProductValidation
 } from "../validations/product.validation";
 
 export const getProducts = async (
@@ -180,13 +182,43 @@ export const addProduct = async (
             value.photo = "product.jpg";
         }
         const data = await createProduct(value);
-        return res.status(200).json({
+        return res.status(201).json({
             message: "Tambah data berhasil",
             data
         });
     } catch (error: Error | unknown) {
         next(
             new Error(`[controller][addProduct] - ${(error as Error).message}`)
+        );
+    }
+};
+
+export const editProduct = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+): Promise<Response | undefined> => {
+    try {
+        const productId = req.params.id;
+        const payload = req.body;
+        const { error, value } = editProductValidation(payload);
+        if (error != undefined) {
+            return res.status(400).json({
+                error: error.details[0].message,
+                message: "Ubah data gagal"
+            });
+        }
+        if (value.photo == "") {
+            value.photo = "product.jpg";
+        }
+        const data = await updateProduct(productId, value);
+        return res.status(200).json({
+            message: "Ubah data berhasil",
+            data
+        });
+    } catch (error: Error | unknown) {
+        next(
+            new Error(`[controller][editProduct] - ${(error as Error).message}`)
         );
     }
 };

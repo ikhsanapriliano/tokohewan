@@ -87,3 +87,47 @@ export const addProductValidation = (
 
     return schema.validate(payload);
 };
+
+export const editProductValidation = (
+    payload: InputProduct
+): Joi.ValidationResult<InputProduct> => {
+    const schema = Joi.object({
+        name: Joi.string().trim().required(),
+        photo: Joi.string().trim().allow("").required(),
+        class: Joi.string()
+            .trim()
+            .required()
+            .valid(
+                "Mammalia",
+                "Aves",
+                "Reptilia",
+                "Amphibia",
+                "Osteichthyes",
+                "Chondrychthyes",
+                "Arachnida",
+                "Insecta",
+                "Mollusca",
+                "Echinodermata",
+                "Chilopoda"
+            ),
+        utility: Joi.array()
+            .items(
+                Joi.string().valid(
+                    "peliharaan",
+                    "peternakan",
+                    "militer",
+                    "hewan_kurban",
+                    "material"
+                )
+            )
+            .required(),
+        habitat: Joi.array()
+            .items(Joi.string().valid("darat", "air", "udara"))
+            .required(),
+        price: Joi.number().required(),
+        discount: Joi.number().min(0).max(100),
+        quantity: Joi.number().required()
+    });
+
+    return schema.validate(payload);
+};

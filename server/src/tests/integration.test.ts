@@ -79,20 +79,39 @@ describe("user simulation test", () => {
                 .post("/api/products")
                 .set({ Authorization: `Bearer ${accessToken}` })
                 .send({
+                    name: "beruang",
+                    photo: "",
+                    class: "Mammalia",
+                    utility: ["peliharaan"],
+                    habitat: ["darat"],
+                    price: 300000,
+                    discount: 10,
+                    seller_id: userId,
+                    quantity: 20
+                });
+            expect(response.status).toBe(201);
+            expect(response.body.message).toBe("Tambah data berhasil");
+            expect(response.body.data).toHaveProperty("id");
+            productId = response.body.data.id;
+        });
+
+        it("edit product test", async () => {
+            const response = await supertest(app)
+                .put(`/api/products/${productId}`)
+                .set({ Authorization: `Bearer ${accessToken}` })
+                .send({
                     name: "kambing",
                     photo: "",
                     class: "Mammalia",
                     utility: ["peternakan", "material"],
                     habitat: ["darat"],
                     price: 500000,
-                    discount: 10,
-                    seller_id: userId,
-                    quantity: 20
+                    discount: 15,
+                    quantity: 30
                 });
             expect(response.status).toBe(200);
-            expect(response.body.message).toBe("Tambah data berhasil");
+            expect(response.body.message).toBe("Ubah data berhasil");
             expect(response.body.data).toHaveProperty("id");
-            productId = response.body.data.id;
         });
 
         it("get all products test", async () => {
