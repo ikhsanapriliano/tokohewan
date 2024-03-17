@@ -15,6 +15,7 @@ export interface Product {
 }
 
 export interface Utility {
+    id?: string;
     peliharaan: boolean;
     peternakan: boolean;
     militer: boolean;
@@ -23,6 +24,7 @@ export interface Utility {
 }
 
 export interface Habitat {
+    id?: string;
     darat: boolean;
     air: boolean;
     udara: boolean;
@@ -42,6 +44,6 @@ export interface InputProduct {
     habitat: string[];
     price: number;
     discount: number;
-    seller_id: string;
+    seller_id?: string;
     quantity: number;
 }

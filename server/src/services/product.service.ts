@@ -19,6 +19,7 @@ export const findAllProducts = async (): Promise<Product[]> => {
             class: true,
             utility: {
                 select: {
+                    id: true,
                     peliharaan: true,
                     peternakan: true,
                     militer: true,
@@ -28,6 +29,7 @@ export const findAllProducts = async (): Promise<Product[]> => {
             },
             habitat: {
                 select: {
+                    id: true,
                     darat: true,
                     air: true,
                     udara: true
@@ -57,6 +59,7 @@ export const findProductsByCategory = async (
             class: true,
             utility: {
                 select: {
+                    id: true,
                     peliharaan: true,
                     peternakan: true,
                     militer: true,
@@ -66,6 +69,7 @@ export const findProductsByCategory = async (
             },
             habitat: {
                 select: {
+                    id: true,
                     darat: true,
                     air: true,
                     udara: true
@@ -96,6 +100,7 @@ export const findProductById = async (id: string): Promise<Product | null> => {
             class: true,
             utility: {
                 select: {
+                    id: true,
                     peliharaan: true,
                     peternakan: true,
                     militer: true,
@@ -105,6 +110,7 @@ export const findProductById = async (id: string): Promise<Product | null> => {
             },
             habitat: {
                 select: {
+                    id: true,
                     darat: true,
                     air: true,
                     udara: true
@@ -216,7 +222,7 @@ export const createProduct = async (
                 discount: payload.discount,
                 free_delivery: freeDelivery,
                 rating: 0,
-                seller_id: payload.seller_id
+                seller_id: payload.seller_id as string
             },
             select: {
                 id: true,
@@ -225,6 +231,7 @@ export const createProduct = async (
                 class: true,
                 utility: {
                     select: {
+                        id: true,
                         peliharaan: true,
                         peternakan: true,
                         militer: true,
@@ -234,6 +241,7 @@ export const createProduct = async (
                 },
                 habitat: {
                     select: {
+                        id: true,
                         darat: true,
                         air: true,
                         udara: true
@@ -246,6 +254,136 @@ export const createProduct = async (
                 seller_id: true,
                 quantity: true,
                 sold: true
+            }
+        });
+
+        return product;
+    });
+
+    return data;
+};
+
+export const updateProduct = async (
+    id: string,
+    payload: InputProduct
+): Promise<Product> => {
+    const utility: Utility = {
+        peliharaan: false,
+        peternakan: false,
+        militer: false,
+        hewan_kurban: false,
+        material: false
+    };
+    payload.utility.forEach((item) => {
+        switch (item) {
+            case "peliharaan":
+                utility.peliharaan = true;
+                break;
+            case "peternakan":
+                utility.peternakan = true;
+                break;
+            case "militer":
+                utility.militer = true;
+                break;
+            case "hewan_kurban":
+                utility.hewan_kurban = true;
+                break;
+            case "material":
+                utility.material = true;
+                break;
+        }
+    });
+
+    const habitat: Habitat = {
+        darat: false,
+        air: false,
+        udara: false
+    };
+    payload.habitat.forEach((item) => {
+        switch (item) {
+            case "darat":
+                habitat.darat = true;
+                break;
+            case "air":
+                habitat.air = true;
+                break;
+            case "udara":
+                habitat.udara = true;
+                break;
+        }
+    });
+
+    let freeDelivery: boolean = false;
+    if (payload.price >= 1000000000) {
+        freeDelivery = true;
+    }
+
+    const data = await prisma.$transaction(async (tx) => {
+        const product = await tx.product.update({
+            where: {
+                id: id
+            },
+            data: {
+                name: payload.name,
+                photo: payload.photo,
+                class: payload.class,
+                quantity: payload.quantity,
+                price: payload.price,
+                discount: payload.discount,
+                free_delivery: freeDelivery
+            },
+            select: {
+                id: true,
+                name: true,
+                photo: true,
+                class: true,
+                utility: {
+                    select: {
+                        id: true,
+                        peliharaan: true,
+                        peternakan: true,
+                        militer: true,
+                        hewan_kurban: true,
+                        material: true
+                    }
+                },
+                habitat: {
+                    select: {
+                        id: true,
+                        darat: true,
+                        air: true,
+                        udara: true
+                    }
+                },
+                price: true,
+                discount: true,
+                free_delivery: true,
+                rating: true,
+                seller_id: true,
+                quantity: true,
+                sold: true
+            }
+        });
+        await tx.utility.update({
+            where: {
+                id: product.utility.id
+            },
+            data: {
+                peliharaan: utility.peliharaan,
+                peternakan: utility.peternakan,
+                militer: utility.militer,
+                hewan_kurban: utility.hewan_kurban,
+                material: utility.material
+            }
+        });
+        await tx.habitat.update({
+            where: {
+                id: product.habitat.id
+            },
+            data: {
+                darat: habitat.darat,
+                air: habitat.air,
+                udara: habitat.udara
             }
         });
 

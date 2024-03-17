@@ -1,6 +1,7 @@
 import { Router } from "express";
 import {
     addProduct,
+    editProduct,
     getProductById,
     getProducts
 } from "../controllers/product.controller";
@@ -13,7 +14,7 @@ productRoutes.use(authenticate);
 productRoutes.get("/", getProducts);
 productRoutes.get("/:id", getProductById);
 productRoutes.post("/", addProduct);
-productRoutes.put("/:id");
+productRoutes.put("/:id", editProduct);
 productRoutes.delete("/:id");
 
 export default productRoutes;
